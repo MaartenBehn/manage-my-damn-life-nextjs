@@ -10,7 +10,6 @@
     {
       nixpkgs,
       flake-parts,
-      pre-commit-hooks,
       ...
     }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
