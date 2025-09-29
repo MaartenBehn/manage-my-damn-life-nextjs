@@ -33,7 +33,7 @@
           };
         in {
           packages.default = manage-my-damn-life.package;
-          devShell = manage-my-damn-life.shell;
+          devshells.default = manage-my-damn-life.shell;
         };
     };
 }
