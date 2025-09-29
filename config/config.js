@@ -3,7 +3,7 @@ dotenv.config({ override: true });
 const dialect = process.env.DB_DIALECT ?? "mysql"
 module.exports = {
   local: {
-    username: process.env.DB_USER,
+    user: process.env.DB_USER,
     password: process.env.DB_PASS,
     database: process.env.DB_NAME,
     host: process.env.DB_HOST,

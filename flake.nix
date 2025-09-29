@@ -97,7 +97,7 @@
             chmod +x $out/bin/${pname}
             '';
         };
-      in {
+      in { 
           packages.default = program;
           devShells.default = pkgs.mkShell {
             packages = with pkgs; [
