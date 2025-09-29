@@ -8,7 +8,7 @@ let
     name = "manage-my-damn-life-nextjs";
     packageName = "manage-my-damn-life-nextjs";
     version = "0.8.1";
-    src = ./.;
+    src = ../.;
     buildInputs = globalBuildInputs;
     meta = {
     };
