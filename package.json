@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npm run migrate && next start",
+    "start": "next start",
     "lint": "next lint",
-    "migrate": "npx sequelize-cli db:migrate --env local",
-    "undo-migrate": "npx sequelize-cli db:migrate:undo  --env local",
+    "migrate": "npx sequelize-cli db:migrate --env sqlite",
+    "undo-migrate": "npx sequelize-cli db:migrate:undo  --env sqlite",
     "cypress": "cypress open"
   },
   "dependencies": {
